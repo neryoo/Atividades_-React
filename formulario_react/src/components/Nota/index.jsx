@@ -1,3 +1,7 @@
 export default function Nota() {
-    return <button className="botao-nota" type="radio" />
+    
+    return <>
+    <label htmlFor="">Nota</label>
+    <button className="botao-nota" type="radio" />
+    </>
 }

@@ -1,3 +1,8 @@
 export default function Nome() {
-    return <input className="nome-filme" type="text" />
+    return <>
+    <label htmlFor="nome">Nome</label>
+    <input className="nome-filme" type="text" />
+    
+    
+    </>
 }

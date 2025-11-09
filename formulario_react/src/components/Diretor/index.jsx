@@ -1,3 +1,6 @@
 export default function Diretor() {
-    return <input className="diretor" type="text" />
+    return <>
+        <label htmlFor="">Diretor</label>
+        <input className="diretor" type="text" />
+    </>
 }

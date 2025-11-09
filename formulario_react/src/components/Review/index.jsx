@@ -1,3 +1,3 @@
 export default function Review() {
-    return <input className="review" type="textarea" />
+    return <textarea className="review" rows="5"/>
 }
